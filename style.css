@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#front, #back {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 500px;
+    font-size: 18px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+#activeCardButtons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#formContainer {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.showHideHotkeysButton {
+    margin-top: 20px;
+}
+
+.lightText {
+    color: #555;
+}
+
+.hide {
+    display: none;
+}
+
+.leftRight, .return, .del {
+    font-family: monospace;
+}
+
+#importExport {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+#import, #export {
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+#export {
+    background-color: #28a745;
+}
+
+.activator {
+    display: block;
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: fit-content;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.activator:hover {
+    background-color: #5a6268;
+}
+
+.close {
+    display: block;
+    text-align: right;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
